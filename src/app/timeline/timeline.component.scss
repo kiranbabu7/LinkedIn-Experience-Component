@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f3f2ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  section {
+    border-radius: 20px;
+    width: 65vw;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    padding: 2.5rem;
+  }
+}
+.head-container {
+  display: flex;
+  justify-content: space-between;
+
+  .action button {
+    margin-left: 1rem;
+    border: none;
+    color: rgb(109, 109, 109);
+    background-color: white;
+    cursor: pointer;
+  }
+}
