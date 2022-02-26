@@ -13,7 +13,7 @@ export class TimelineComponent implements OnInit {
   jobs = [
     {
       company: 'Krinati Solutions Pvt Ltd',
-      logo: `src/app/img/krinati.png`,
+      logo: 'https://cdn.discordapp.com/attachments/601660887878729729/947172995363917965/unknown.png',
       type: 'Full-time',
       startDate: 'March 2022',
       endDate: 'Present',
@@ -22,19 +22,30 @@ export class TimelineComponent implements OnInit {
     },
     {
       company: 'ChatGen',
-      logo: `src/app/img/chatgen.jpg`,
+      logo: 'https://cdn.discordapp.com/attachments/601660887878729729/947173204613529620/chatgen.jpg',
       type: 'Part-time',
       startDate: 'Mar 2020',
       endDate: 'Apr 2021',
       title: 'Frontend Developer',
+      location: 'Mumbai, Mahatrashtra, India',
     },
     {
       company: 'Mattermost',
-      logo: `src/app/img/mattermost.png`,
+      logo: 'https://cdn.discordapp.com/attachments/601660887878729729/947172995632345198/unknown.png',
       type: 'Full-time',
       startDate: 'Aug 2020',
       endDate: 'Dec 2020',
       title: 'Contributor',
+      location: 'Mumbai, Mahatrashtra, India',
+    },
+    {
+      company: 'Google',
+      logo: 'https://ssl.gstatic.com/images/branding/googleg/2x/googleg_standard_color_64dp.png',
+      type: 'Full-time',
+      startDate: 'March 2019',
+      endDate: 'june 2020',
+      title: 'Software Developer',
+      location: 'Mumbai, Mahatrashtra, India',
     },
   ];
 }

@@ -9,13 +9,15 @@
         <button><i class="fa fa-pencil fa-2x" aria-hidden="true"></i></button>
       </div>
     </div>
-    <div class="timeline">
-      <div class="company" *ngFor="let job of jobs">
-        <img src="{{ job.logo }}" />
-        <h3>{{ job.title }}</h3>
-        <p>{{ job.company }} · {{ job.type }}</p>
-        <p>{{ job.startDate }} - {{ job.endDate }}</p>
-        <p>{{ job.location }}</p>
+    <div class="timeline" *ngFor="let job of jobs">
+      <div class="company">
+        <div><img src="{{ job.logo }}" class="logo" /></div>
+        <div>
+          <h3>{{ job.title }}</h3>
+          <p class="job">{{ job.company }} · {{ job.type }}</p>
+          <p>{{ job.startDate }} - {{ job.endDate }}</p>
+          <p>{{ job.location }}</p>
+        </div>
       </div>
     </div>
   </section>
