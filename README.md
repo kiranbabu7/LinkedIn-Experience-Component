@@ -2,7 +2,7 @@
 
 This project is assisgnment from Krinati solutions for internship.
 
-![Linkedin experience section in angular](src/assets/screenshots/demo.png)
+![Linkedin experience section in angular](src/assets/screenshot/demo.png)
 
 # Local setup
 
