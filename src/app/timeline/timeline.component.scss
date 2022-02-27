@@ -38,9 +38,8 @@
 }
 .company {
   display: flex;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0 1rem;
   border-bottom: 1px solid rgb(160, 160, 160);
-  margin-bottom: 1rem;
   img {
     margin-right: 0.5rem;
   }
@@ -50,6 +49,9 @@
   p {
     padding: 4px 0;
     color: rgb(104, 104, 104);
+  }
+  &:hover {
+    background-color: #eeeeee;
   }
 }
 
