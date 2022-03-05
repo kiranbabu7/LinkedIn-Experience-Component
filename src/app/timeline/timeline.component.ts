@@ -8,6 +8,7 @@ import { JobService } from '../service/job.service';
 export class TimelineComponent implements OnInit {
   jobdata: any = [];
   constructor(public jobs: JobService) {
+    // fetches jobs and assigns it to jobdata
     this.jobs.getJobs().subscribe((jobs) => {
       this.jobdata = jobs;
     });
